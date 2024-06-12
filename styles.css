@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,4 +65,18 @@ h1 {
 .card-text {
   font-size: 1rem;
   font-weight: 400;
+}
+@media screen and (max-width: 969px) {
+  h1 {
+    font-size: 5rem;
+    top: 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .cards {
+    padding-top: 100px;
+  }
 }
